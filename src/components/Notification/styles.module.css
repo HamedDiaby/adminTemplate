@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    border: solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container p{
+    font-weight: 700;
+}
+
+.closeIcon {
+    font-size: 20px;
+    cursor: pointer;
+    color: lightgrey;
+}

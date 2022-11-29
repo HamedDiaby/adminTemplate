@@ -1,0 +1,40 @@
+.tabsLabelsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.activeTab {
+    border: solid 2px #55a630;
+    background-color: #55a6307a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activeTab p {
+    color: #55a630;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.inActiveTab {
+    border: solid 2px #c5c3c6;
+    background-color: #c5c3c67e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inActiveTab:hover {
+    border: solid 2px #55a630;
+}
+
+.inActiveTab p {
+    color: #c5c3c6;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
